@@ -1,0 +1,41 @@
+.mainNosPresentamos{
+    padding: 90px 20px 20px 20px;
+    font-family: $textPrimaryFont;
+
+    h1{
+        font-size: 28px;
+        color: $colorTextSecondary;
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        color: $colorTextPrimary;
+        background-color: $colorFondo;
+        padding: 20px;
+    }
+    ul{
+        list-style: none;
+        background-color: $colorFondo;
+        padding-left: 20px;
+
+        li{
+            font-size: 18px;
+        }
+    }
+
+    .contImg{
+        text-align: center;
+        margin-top: 20px;
+
+        img{
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    }
+}
+
+.comisionDirectiva{
+    height: 900px;
+}

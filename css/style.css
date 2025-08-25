@@ -29,7 +29,7 @@ header .contLogoHeader img {
   right: 20px;
   z-index: 1000;
   font-size: 36px;
-  color: #656565;
+  color: #595959;
   height: 30px;
   width: 30px;
 }
@@ -150,13 +150,16 @@ header .contLogoHeader img {
 }
 
 footer {
+  position: static;
+  bottom: 0;
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #F8F9FA;
   font-family: "Open Sans", sans-serif;
-  color: #656565;
+  color: #595959;
   box-shadow: 0 0 13px rgba(0, 0, 0, 0.3);
 }
 footer h4 {
@@ -164,7 +167,7 @@ footer h4 {
   font-weight: 400;
 }
 
-main {
+.mainHome {
   padding: 30px;
   margin-top: 80px;
   width: 100%;
@@ -174,12 +177,12 @@ main {
   align-items: center;
   justify-content: center;
 }
-main h5 {
+.mainHome h5 {
   font-size: 20px;
   color: #222222;
   font-weight: 400;
 }
-main h2 {
+.mainHome h2 {
   font-weight: 300;
   text-align: center;
   font-size: 55px;
@@ -187,32 +190,70 @@ main h2 {
   line-height: 1.1;
   color: #222222;
 }
-main h2 span {
+.mainHome h2 span {
   font-family: "Playfair Display", serif;
   color: #03a9f4;
   font-style: italic;
 }
-main p {
+.mainHome p {
   font-size: 20px;
   text-align: center;
-  color: #656565;
+  color: #595959;
   margin-top: 20px;
   font-weight: 300;
   margin-bottom: 30px;
 }
-main .contImagenes {
+.mainHome .contImagenes {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 30px;
 }
-main .contImagenes img {
+.mainHome .contImagenes img {
   max-width: 100%;
   height: auto;
   margin: 10px;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mainNosPresentamos {
+  padding: 90px 20px 20px 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.mainNosPresentamos h1 {
+  font-size: 28px;
+  color: #595959;
+  margin-bottom: 20px;
+}
+.mainNosPresentamos p {
+  text-align: center;
+  font-size: 18px;
+  color: #222222;
+  background-color: #F8F9FA;
+  padding: 20px;
+}
+.mainNosPresentamos ul {
+  list-style: none;
+  background-color: #F8F9FA;
+  padding-left: 20px;
+}
+.mainNosPresentamos ul li {
+  font-size: 18px;
+}
+.mainNosPresentamos .contImg {
+  text-align: center;
+  margin-top: 20px;
+}
+.mainNosPresentamos .contImg img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.comisionDirectiva {
+  height: 900px;
 }
 
 .btn {
