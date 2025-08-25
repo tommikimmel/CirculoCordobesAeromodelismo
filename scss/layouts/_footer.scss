@@ -1,0 +1,15 @@
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorFondo;
+    font-family: $textPrimaryFont;
+    color: $colorTextSecondary;
+    box-shadow: 0 0 13px rgba($color: #000, $alpha: 0.3);
+
+    h4{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

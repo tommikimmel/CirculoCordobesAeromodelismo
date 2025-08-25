@@ -1,0 +1,56 @@
+main{
+    padding: 30px;
+    margin-top: 80px;
+    width: 100%;
+    font-family: $textPrimaryFont;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h5{
+        font-size: 20px;
+        color: $colorTextPrimary;
+        font-weight: 400;
+    }
+
+    h2{
+        font-weight: 300;
+        text-align: center;
+        font-size: 55px;
+        margin-top: 20px;
+        line-height: 1.1;
+        color: $colorTextPrimary;
+
+        span{
+            font-family: $textSecondaryFont;
+            color: $colorPrimary;
+            font-style: italic;
+        }
+    }
+
+    p{
+        font-size: 20px;
+        text-align: center;
+        color: $colorTextSecondary;
+        margin-top: 20px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+
+    .contImagenes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+        img{
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba($color: #000, $alpha: 0.2);
+        }
+    }
+}

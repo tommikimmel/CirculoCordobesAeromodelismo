@@ -1,0 +1,16 @@
+//Base
+@import "base/vars";
+@import "base/reset";
+@import "base/typography";
+
+//layouts
+@import "layouts/header";
+@import "layouts/footer";
+
+//Pages
+@import "pages/_index";
+
+//Components
+@import "components/_buttons";
+@import "components/_cards";
+@import "components/_forms";
